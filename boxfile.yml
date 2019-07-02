@@ -1,0 +1,9 @@
+run.config:
+  engine: nodejs
+  engine.config:
+    runtime: nodejs-8
+    dep_manager: yarn
+  extra_path_dirs:
+    - node_modules/.bin
+  cache_dirs:
+    - node_modules

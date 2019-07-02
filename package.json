@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^8.0.6",
+    "@nestjs/cli": "^6.0.0"
+  },
+  "workspaces": [
+    "server"
+  ]
+}
